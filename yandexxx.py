@@ -5,7 +5,7 @@ import requests
 class TestYandexDiskAPI(unittest.TestCase):
 
     def setUp(self):
-        self.token = "токен"
+        self.token = ""
         self.headers = {
             "Authorization": f"OAuth {self.token}",
             "Content-Type": "application/json"
